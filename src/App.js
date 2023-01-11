@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import algosdk from 'algosdk'
+
+console.log(algosdk.encodeUint64(123456))
 
 function App() {
   return (
